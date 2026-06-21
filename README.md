@@ -1,401 +1,163 @@
 # 🚀 ProjectFlow Pro
 
-<div align="center">
-
+```{=html}
+<p align="center">
+```
+`<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&center=true&vCenter=true&width=900&lines=ProjectFlow+Pro;Enterprise+Project+Management;Pure+Java+%7C+Modern+UI+%7C+AI+Assistant;Manage+•+Track+•+Deliver" />`{=html}
+```{=html}
+</p>
+```
+```{=html}
+<p align="center">
+```
+![Stars](https://img.shields.io/github/stars/yourusername/ProjectFlowPro?style=for-the-badge)
 ![Java](https://img.shields.io/badge/Java-17+-orange?style=for-the-badge)
-![HTML](https://img.shields.io/badge/HTML5-Frontend-E34F26?style=for-the-badge)
-![CSS](https://img.shields.io/badge/CSS3-Styled-1572B6?style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/JavaScript-Interactive-F7DF1E?style=for-the-badge)
+![HTML](https://img.shields.io/badge/Frontend-HTML%2FCSS%2FJS-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-### Modern Project Management System built with Pure Java HTTP Server
-
-*A lightweight, database-free enterprise project management application featuring Kanban boards, role-based access, analytics, task tracking, and an integrated AI assistant.*
-
-</div>
-
----
-
-# 📖 Overview
-
-ProjectFlow Pro is a full-stack project management system developed using **Java HttpServer**, **HTML**, **CSS**, and **JavaScript** without relying on external frameworks or databases.
-
-The application demonstrates enterprise software engineering concepts while remaining lightweight and easy to deploy.
-
----
-
-# ✨ Key Features
-
-## 👤 User Management
-- Secure Login
-- Session Management
-- Role-Based Access Control
-- Admin
-- Manager
-- User
-
----
-
-## 📁 Project Management
-
-- Create Projects
-- Edit Projects
-- Project Dashboard
-- Project Analytics
-- Color Tags
-- Team Assignment
-
----
-
-## ✅ Task Management
-
-- Create Tasks
-- Assign Tasks
-- Due Dates
-- Priority Levels
-- Task Comments
-- Status Updates
-
-Task States
-
-```
-TODO
-↓
-
-IN_PROGRESS
-↓
-
-REVIEW
-↓
-
-DONE
+```{=html}
+</p>
 ```
 
----
+------------------------------------------------------------------------
 
-## 📊 Dashboard
+# ✨ Overview
 
-Real-time dashboard displaying
+ProjectFlow Pro is a modern project management platform built with
+**Pure Java HttpServer**, featuring:
 
-- Total Projects
-- Active Tasks
-- Completed Tasks
-- Progress Statistics
-- Activity Feed
+-   📊 Live Dashboard
+-   📁 Project Management
+-   📋 Drag & Drop Kanban
+-   🤖 AI Assistant
+-   👥 Team Management
+-   🌙 Dark Mode
+-   🔒 Role Based Authentication
+-   📈 Analytics
 
----
+------------------------------------------------------------------------
 
-## 📋 Kanban Board
+# 🖥️ Dashboard Preview
 
-Interactive Kanban Board
+> Replace these placeholders with GIFs or screenshots.
 
-```
-TODO
-│
-├── Task A
-├── Task B
+  Dashboard                 Kanban
+  ------------------------- ----------------------
+  ![](docs/dashboard.gif)   ![](docs/kanban.gif)
 
-↓
+  AI Assistant         Projects
+  -------------------- ------------------------
+  ![](docs/chat.gif)   ![](docs/projects.gif)
 
-IN PROGRESS
+------------------------------------------------------------------------
 
-↓
+# 🏗️ Architecture
 
-REVIEW
-
-↓
-
-DONE
-```
-
-Features
-
-- Drag & Drop
-- Status Updates
-- Priority Colors
-- Assignee Display
-- Deadline Tracking
-
----
-
-## 🤖 AI Assistant
-
-Built-in chatbot
-
-Capabilities
-
-- Project Statistics
-- Task Summary
-- Team Information
-- Help Commands
-- Friendly Responses
-
----
-
-## 👥 Team Management
-
-- User Directory
-- User Roles
-- Avatar Support
-- Team Overview
-
----
-
-## ⚙️ Settings
-
-- User Profile
-- Theme Switching
-- Password Update
-- Avatar Display
-
----
-
-# 🏗️ System Architecture
-
-```
-                Client Browser
-                       │
-         HTML • CSS • JavaScript
-                       │
-                 HTTP Requests
-                       │
-      ┌──────────────────────────┐
-      │     Java HTTP Server     │
-      │                          │
-      │  ApiHandler              │
-      │  StaticHandler           │
-      │  System Controller       │
-      └──────────────────────────┘
-                       │
-          Read / Write Operations
-                       │
-      ┌──────────────────────────┐
-      │      In-Memory Storage   │
-      │                          │
-      │ Users                    │
-      │ Projects                 │
-      │ Tasks                    │
-      │ Sessions                 │
-      └──────────────────────────┘
+``` text
+Browser
+   │
+HTTP
+   │
+Java HTTP Server
+ ├── ApiHandler
+ ├── StaticHandler
+ ├── SystemController
+ │
+DataStore
+ ├── Users
+ ├── Projects
+ └── Tasks
 ```
 
----
+------------------------------------------------------------------------
+
+# ⚡ Features
+
+-   Enterprise Dashboard
+-   Responsive UI
+-   Glassmorphism Design
+-   Kanban Board
+-   Activity Logs
+-   Project Analytics
+-   AI Chat Assistant
+-   Session Management
+-   REST API
+-   In-Memory Database
+
+------------------------------------------------------------------------
+
+# 📊 Workflow
+
+``` text
+Login
+ ↓
+Dashboard
+ ↓
+Projects
+ ↓
+Tasks
+ ↓
+Review
+ ↓
+Completed
+```
+
+------------------------------------------------------------------------
 
 # 📂 Project Structure
 
-```
-ProjectFlowPro
-
-│
+``` text
+ProjectFlowPro/
 ├── UserView.java
-│
-├── Models
-│   ├── User
-│   ├── Project
-│   ├── Task
-│   └── ActivityLog
-│
-├── Handlers
-│   ├── ApiHandler
-│   └── StaticHandler
-│
-├── Frontend
-│   ├── HTML
-│   ├── CSS
-│   └── JavaScript
-│
-└── In-Memory Database
+├── docs/
+├── README.md
+└── assets/
 ```
 
----
+------------------------------------------------------------------------
 
-# 🎨 Application Flow
+# 🧩 UML
 
-```
-Login
-   │
-   ▼
-Dashboard
-   │
-   ├─────────────┐
-   ▼             ▼
-Projects      My Tasks
-   │             │
-   ▼             ▼
-Kanban Board  Update Status
-   │
-   ▼
-Analytics
-```
+-   ✅ Use Case Diagram
+-   ✅ Class Diagram
+-   ✅ Package Diagram
+-   ✅ Deployment Diagram
+-   ✅ State Diagram
 
----
+------------------------------------------------------------------------
 
-# 🔄 Task Workflow
+# 🚀 Run
 
-```
-Task Created
-      │
-      ▼
-TODO
-      │
-      ▼
-IN PROGRESS
-      │
-      ▼
-REVIEW
-      │
-      ▼
-DONE
-```
-
----
-
-# 🔐 User Roles
-
-### 👑 Admin
-
-- Full Access
-- Manage Users
-- Create Projects
-- Manage Tasks
-- Analytics
-
----
-
-### 👨‍💼 Manager
-
-- Create Projects
-- Assign Tasks
-- Manage Team
-- Track Progress
-
----
-
-### 👨‍💻 User
-
-- View Assigned Tasks
-- Update Task Status
-- Add Comments
-- View Dashboard
-
----
-
-# 📈 Technologies Used
-
-| Technology | Purpose |
-|------------|----------|
-| Java | Backend |
-| HttpServer | REST API |
-| HTML5 | User Interface |
-| CSS3 | Styling |
-| JavaScript | Client Logic |
-| Chart.js | Analytics |
-| Font Awesome | Icons |
-
----
-
-# 📊 UML Diagrams
-
-This project includes professional UML documentation.
-
-- ✅ Use Case Diagram
-- ✅ Class Diagram
-- ✅ State Transition Diagram
-- ✅ Deployment Diagram
-- ✅ Package Diagram
-
----
-
-# 🎯 Highlights
-
-- Pure Java Implementation
-- No External Database
-- RESTful API
-- Responsive UI
-- Glassmorphism Design
-- Drag & Drop Kanban
-- Dark Mode
-- AI Assistant
-- Role-Based Security
-- Activity Logging
-
----
-
-# 🚀 Getting Started
-
-### Clone Repository
-
-```bash
-git clone https://github.com/yourusername/ProjectFlowPro.git
-```
-
-### Compile
-
-```bash
+``` bash
 javac UserView.java
-```
-
-### Run
-
-```bash
 java UserView
 ```
 
-### Open
+Open:
 
-```
 http://localhost:8000
+
+------------------------------------------------------------------------
+
+# 🌟 Future
+
+-   MySQL
+-   JWT
+-   Docker
+-   Cloud Deployment
+-   Email Notifications
+-   Gantt Charts
+-   Mobile App
+
+------------------------------------------------------------------------
+
+```{=html}
+<p align="center">
 ```
+## ⭐ Star this repository if you like it!
 
----
+Made with ❤️ using Java
 
-# 📷 Screenshots
-
+```{=html}
+</p>
 ```
-📷 Login Screen
-
-📷 Dashboard
-
-📷 Projects
-
-📷 Kanban Board
-
-📷 AI Assistant
-
-📷 Team Management
-
-📷 Settings
-```
-
----
-
-# 🔮 Future Improvements
-
-- MySQL Integration
-- JWT Authentication
-- Email Notifications
-- File Uploads
-- Calendar Integration
-- Gantt Charts
-- Mobile Application
-- Docker Deployment
-- Cloud Database
-- AI Task Recommendations
-
----
-
-# 👨‍💻 Developer
-
-**ProjectFlow Pro**
-
-Developed as a Software Engineering Project demonstrating modern software architecture, UI design, UML modeling, and project management concepts.
-
----
-
-<div align="center">
-
-### ⭐ If you found this project useful, consider giving it a star!
-
-**ProjectFlow Pro — Manage Projects. Track Progress. Deliver Success.**
-
-</div>
