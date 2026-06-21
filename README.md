@@ -216,30 +216,21 @@ This produces a production-ready **`dist/`** folder with `manifest.json`, `backg
 | 8 | Right-click icon → **Inspect Side Panel**, or open the **service worker** link in `chrome://extensions/` for logs |
 
 <img src="./assets/divider.svg" width="100%" height="4"/>
-
 ## 🐍 Live Contribution Snake
 
-This repo ships with a ready-to-use GitHub Actions workflow (`.github/workflows/snake.yml`) that renders the maintainer's contribution graph as an animated snake, updated daily.
-
-**To activate it:**
-1. Push this repo to GitHub with the included `.github/workflows/snake.yml`
-2. In **Settings → Actions → General**, set Workflow permissions to **Read and write**
-3. Run the workflow once from the **Actions** tab (or wait for the next push/cron tick)
-4. It publishes the SVGs to an auto-created `output` branch — then embed it:
-
-```md
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/ContextTab/output/github-contribution-grid-snake-dark.svg">
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/YOUR_USERNAME/ContextTab/output/github-contribution-grid-snake.svg">
-</picture>
-```
-
 <div align="center">
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/ContextTab/output/github-contribution-grid-snake-dark.svg">
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/YOUR_USERNAME/ContextTab/output/github-contribution-grid-snake.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/SURYATSG786/finalpro-project/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/SURYATSG786/finalpro-project/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub contribution snake"
+    src="https://raw.githubusercontent.com/SURYATSG786/finalpro-project/output/github-contribution-grid-snake.svg">
 </picture>
+
 </div>
+
 
 > Until the workflow has run at least once, the image above will 404 — that's expected for a brand-new repo. The moment Actions runs, it goes live and starts animating automatically, no further upkeep needed.
 
