@@ -1,188 +1,401 @@
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:4F46E5,100:06B6D4&text=🚀%20ProjectFlow%20Pro&fontSize=50&fontAlignY=38&fontColor=ffffff&animation=fadeIn" />
-
 # 🚀 ProjectFlow Pro
 
-### AI-Powered Project & Task Management Ecosystem
+<div align="center">
 
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&duration=3500&pause=800&color=00D9FF&center=true&vCenter=true&width=900&lines=AI-Powered+Project+Management;Role-Based+Access+Control;Kanban+Workflow;Real-Time+Analytics;Delulu+AI+Assistant;Built+with+React+%7C+Java+%7C+PostgreSQL" />
-</p>
+![Java](https://img.shields.io/badge/Java-17+-orange?style=for-the-badge)
+![HTML](https://img.shields.io/badge/HTML5-Frontend-E34F26?style=for-the-badge)
+![CSS](https://img.shields.io/badge/CSS3-Styled-1572B6?style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-Interactive-F7DF1E?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-<p align="center">
+### Modern Project Management System built with Pure Java HTTP Server
 
-<img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react"/>
+*A lightweight, database-free enterprise project management application featuring Kanban boards, role-based access, analytics, task tracking, and an integrated AI assistant.*
 
-<img src="https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=openjdk"/>
-
-<img src="https://img.shields.io/badge/Node.js-20-339933?style=for-the-badge&logo=node.js"/>
-
-<img src="https://img.shields.io/badge/PostgreSQL-16-316192?style=for-the-badge&logo=postgresql"/>
-
-<img src="https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwindcss"/>
-
-<img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs"/>
-
-</p>
-
-<p align="center">
-
-<img src="https://img.shields.io/github/license/YOUR_USERNAME/ProjectFlowPro?style=flat-square">
-
-<img src="https://img.shields.io/github/stars/YOUR_USERNAME/ProjectFlowPro?style=flat-square">
-
-<img src="https://img.shields.io/github/forks/YOUR_USERNAME/ProjectFlowPro?style=flat-square">
-
-<img src="https://img.shields.io/github/issues/YOUR_USERNAME/ProjectFlowPro?style=flat-square">
-
-</p>
+</div>
 
 ---
 
-# ✨ Overview
+# 📖 Overview
 
-ProjectFlow Pro is a modern **AI-powered Project & Task Management Platform**
-designed to eliminate communication silos and improve collaboration through
-real-time project visibility, intelligent task management and analytics.
+ProjectFlow Pro is a full-stack project management system developed using **Java HttpServer**, **HTML**, **CSS**, and **JavaScript** without relying on external frameworks or databases.
 
-Unlike traditional task managers, ProjectFlow Pro combines
-
-- 🤖 AI Assistance
-- 📊 Live Analytics
-- 🔐 Secure RBAC
-- 📋 Kanban Workflow
-- 📝 Activity Audit Logs
-
-into one unified productivity ecosystem.
+The application demonstrates enterprise software engineering concepts while remaining lightweight and easy to deploy.
 
 ---
 
-# 🎥 Live Preview
+# ✨ Key Features
 
-<p align="center">
-
-<img src="assets/demo.gif" width="900"/>
-
-</p>
-
-> Replace `assets/demo.gif` with your project demo GIF.
-
----
-
-# 🖥️ Screenshots
-
-| Dashboard | Kanban |
-|------------|---------|
-| ![](assets/dashboard.png) | ![](assets/kanban.png) |
-
-| Analytics | AI Assistant |
-|------------|--------------|
-| ![](assets/analytics.png) | ![](assets/chatbot.png) |
+## 👤 User Management
+- Secure Login
+- Session Management
+- Role-Based Access Control
+- Admin
+- Manager
+- User
 
 ---
 
-# ⚡ Features
+## 📁 Project Management
 
-| Feature | Description |
-|---------|-------------|
-| 🔐 Role Based Access | Secure Admin / Manager / User roles |
-| 📋 Kanban Board | Drag & Drop task workflow |
-| 📊 Analytics Dashboard | Live project insights |
-| 🤖 Delulu AI | Intelligent chatbot assistant |
-| 📈 Charts | Chart.js visual analytics |
-| 📝 Audit Logs | Complete activity history |
-| 🔒 Authentication | Token-based login |
-| 🗄 PostgreSQL | Structured relational storage |
-| ⚡ High Performance | Thread-safe runtime collections |
+- Create Projects
+- Edit Projects
+- Project Dashboard
+- Project Analytics
+- Color Tags
+- Team Assignment
 
 ---
 
-# 🏗️ Architecture
+## ✅ Task Management
 
-```mermaid
-flowchart TD
+- Create Tasks
+- Assign Tasks
+- Due Dates
+- Priority Levels
+- Task Comments
+- Status Updates
 
-A[React Frontend]
+Task States
 
-B[Java Backend]
+```
+TODO
+↓
 
-C[Authentication]
+IN_PROGRESS
+↓
 
-D[Business Logic]
+REVIEW
+↓
 
-E[Delulu AI]
-
-F[PostgreSQL]
-
-G[Analytics]
-
-A --> B
-
-B --> C
-
-B --> D
-
-D --> F
-
-D --> G
-
-D --> E
+DONE
 ```
 
 ---
 
-# 🤖 Delulu AI Assistant
+## 📊 Dashboard
 
-### Ask Questions Like
+Real-time dashboard displaying
 
-```text
-How many projects are active?
+- Total Projects
+- Active Tasks
+- Completed Tasks
+- Progress Statistics
+- Activity Feed
 
-Which tasks are overdue?
+---
 
-Show this week's progress.
+## 📋 Kanban Board
 
-Who completed the highest number of tasks?
+Interactive Kanban Board
 
-Summarize Project Alpha.
+```
+TODO
+│
+├── Task A
+├── Task B
 
-List delayed milestones.
+↓
+
+IN PROGRESS
+
+↓
+
+REVIEW
+
+↓
+
+DONE
 ```
 
-The AI instantly provides contextual project insights using natural language.
+Features
+
+- Drag & Drop
+- Status Updates
+- Priority Colors
+- Assignee Display
+- Deadline Tracking
 
 ---
 
-# 🛠️ Technology Stack
+## 🤖 AI Assistant
 
-## Frontend
+Built-in chatbot
 
-- React
-- HTML5
-- CSS3
-- Tailwind CSS
+Capabilities
 
-## Backend
-
-- Java HTTP Server
-- Node.js
-
-## Database
-
-- PostgreSQL
-
-## Visualization
-
-- Chart.js
-
-## AI
-
-- Custom NLP Engine
-
-## Design
-
-- Glassmorphism UI
-- Responsive Design
+- Project Statistics
+- Task Summary
+- Team Information
+- Help Commands
+- Friendly Responses
 
 ---
+
+## 👥 Team Management
+
+- User Directory
+- User Roles
+- Avatar Support
+- Team Overview
+
+---
+
+## ⚙️ Settings
+
+- User Profile
+- Theme Switching
+- Password Update
+- Avatar Display
+
+---
+
+# 🏗️ System Architecture
+
+```
+                Client Browser
+                       │
+         HTML • CSS • JavaScript
+                       │
+                 HTTP Requests
+                       │
+      ┌──────────────────────────┐
+      │     Java HTTP Server     │
+      │                          │
+      │  ApiHandler              │
+      │  StaticHandler           │
+      │  System Controller       │
+      └──────────────────────────┘
+                       │
+          Read / Write Operations
+                       │
+      ┌──────────────────────────┐
+      │      In-Memory Storage   │
+      │                          │
+      │ Users                    │
+      │ Projects                 │
+      │ Tasks                    │
+      │ Sessions                 │
+      └──────────────────────────┘
+```
+
+---
+
+# 📂 Project Structure
+
+```
+ProjectFlowPro
+
+│
+├── UserView.java
+│
+├── Models
+│   ├── User
+│   ├── Project
+│   ├── Task
+│   └── ActivityLog
+│
+├── Handlers
+│   ├── ApiHandler
+│   └── StaticHandler
+│
+├── Frontend
+│   ├── HTML
+│   ├── CSS
+│   └── JavaScript
+│
+└── In-Memory Database
+```
+
+---
+
+# 🎨 Application Flow
+
+```
+Login
+   │
+   ▼
+Dashboard
+   │
+   ├─────────────┐
+   ▼             ▼
+Projects      My Tasks
+   │             │
+   ▼             ▼
+Kanban Board  Update Status
+   │
+   ▼
+Analytics
+```
+
+---
+
+# 🔄 Task Workflow
+
+```
+Task Created
+      │
+      ▼
+TODO
+      │
+      ▼
+IN PROGRESS
+      │
+      ▼
+REVIEW
+      │
+      ▼
+DONE
+```
+
+---
+
+# 🔐 User Roles
+
+### 👑 Admin
+
+- Full Access
+- Manage Users
+- Create Projects
+- Manage Tasks
+- Analytics
+
+---
+
+### 👨‍💼 Manager
+
+- Create Projects
+- Assign Tasks
+- Manage Team
+- Track Progress
+
+---
+
+### 👨‍💻 User
+
+- View Assigned Tasks
+- Update Task Status
+- Add Comments
+- View Dashboard
+
+---
+
+# 📈 Technologies Used
+
+| Technology | Purpose |
+|------------|----------|
+| Java | Backend |
+| HttpServer | REST API |
+| HTML5 | User Interface |
+| CSS3 | Styling |
+| JavaScript | Client Logic |
+| Chart.js | Analytics |
+| Font Awesome | Icons |
+
+---
+
+# 📊 UML Diagrams
+
+This project includes professional UML documentation.
+
+- ✅ Use Case Diagram
+- ✅ Class Diagram
+- ✅ State Transition Diagram
+- ✅ Deployment Diagram
+- ✅ Package Diagram
+
+---
+
+# 🎯 Highlights
+
+- Pure Java Implementation
+- No External Database
+- RESTful API
+- Responsive UI
+- Glassmorphism Design
+- Drag & Drop Kanban
+- Dark Mode
+- AI Assistant
+- Role-Based Security
+- Activity Logging
+
+---
+
+# 🚀 Getting Started
+
+### Clone Repository
+
+```bash
+git clone https://github.com/yourusername/ProjectFlowPro.git
+```
+
+### Compile
+
+```bash
+javac UserView.java
+```
+
+### Run
+
+```bash
+java UserView
+```
+
+### Open
+
+```
+http://localhost:8000
+```
+
+---
+
+# 📷 Screenshots
+
+```
+📷 Login Screen
+
+📷 Dashboard
+
+📷 Projects
+
+📷 Kanban Board
+
+📷 AI Assistant
+
+📷 Team Management
+
+📷 Settings
+```
+
+---
+
+# 🔮 Future Improvements
+
+- MySQL Integration
+- JWT Authentication
+- Email Notifications
+- File Uploads
+- Calendar Integration
+- Gantt Charts
+- Mobile Application
+- Docker Deployment
+- Cloud Database
+- AI Task Recommendations
+
+---
+
+# 👨‍💻 Developer
+
+**ProjectFlow Pro**
+
+Developed as a Software Engineering Project demonstrating modern software architecture, UI design, UML modeling, and project management concepts.
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project useful, consider giving it a star!
+
+**ProjectFlow Pro — Manage Projects. Track Progress. Deliver Success.**
+
+</div>
