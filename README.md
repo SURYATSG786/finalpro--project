@@ -5,15 +5,17 @@
 <img src="./assets/divider.svg" width="100%" height="4"/>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/YOUR_USERNAME/ContextTab?color=00F5D4&style=for-the-badge&logo=star&logoColor=white&labelColor=0d1117" alt="stars"/>
-  <img src="https://img.shields.io/github/forks/YOUR_USERNAME/ContextTab?color=9B5DE5&style=for-the-badge&logo=git&logoColor=white&labelColor=0d1117" alt="forks"/>
-  <img src="https://img.shields.io/github/last-commit/YOUR_USERNAME/ContextTab?color=F15BB5&style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="last commit"/>
+  <img src="https://img.shields.io/github/stars/SURYATSG786/finalpro-project?color=00F5D4&style=for-the-badge&logo=star&logoColor=white&labelColor=0d1117" alt="stars"/>
+  <img src="https://img.shields.io/github/forks/SURYATSG786/finalpro-project?color=9B5DE5&style=for-the-badge&logo=git&logoColor=white&labelColor=0d1117" alt="forks"/>
+  <img src="https://img.shields.io/github/last-commit/SURYATSG786/finalpro-project?color=F15BB5&style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="last commit"/>
   <img src="https://img.shields.io/badge/License-MIT-00F5D4?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=0d1117" alt="license"/>
   <img src="https://img.shields.io/badge/Manifest-V3-9B5DE5?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0d1117" alt="manifest v3"/>
 </p>
+
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ContextTab-Elevate2026&style=for-the-badge&color=F15BB5&labelColor=0d1117&label=JUDGES%20VIEWING%20THIS" alt="live views"/>
+  <img src="https://komarev.com/ghpvc/?username=SURYATSG786&style=for-the-badge&color=F15BB5&labelColor=0d1117&label=PROFILE%20VIEWS" alt="profile views"/>
 </p>
+
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2200&pause=400&color=5eead4&center=true&vCenter=true&width=820&lines=%24+npm+run+build;%E2%9C%93+compiled+background.js+%2B+side+panel+bundle;%24+ollama+run+gemma4;%E2%9C%93+local+inference+ready+%E2%80%94+0+API+cost;%E2%9C%93+50+tabs+%E2%86%92+4+intent-grouped+workspaces;%E2%9C%93+312MB+RAM+reclaimed+this+session" alt="fake terminal session" />
 
